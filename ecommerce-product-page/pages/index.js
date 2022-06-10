@@ -5,6 +5,11 @@ import Link from 'next/link'
 
 let navigationLinks = require("/data/navigation.json")
 
+
+const ProductThumbnail = (props) => {
+	
+}
+
 export default function Home() {
 	return (
 		<>
@@ -56,9 +61,9 @@ export default function Home() {
 					</div>
 				</div>
 			</header>
-			<main className="float-left w-full h-full font-kumbhSans">
+			<main className="float-left w-full h-full font-kumbhSans mb-40">
 				<div className="flex flex-col md:flex-row container mx-auto mt-16 px-16">
-					<div class="flex flex-col min-w-[38%] max-w-[38%] h-initial">
+					<div className="flex flex-col min-w-[38%] max-w-[38%] h-initial">
 						<div className="w-initial h-auto relative">
 							<Image
 								src="/images/image-product-1.jpg"
