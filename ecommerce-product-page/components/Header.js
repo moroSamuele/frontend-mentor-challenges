@@ -12,7 +12,7 @@ export default class Header extends React.Component {
 
     render() {
         return (
-            <header className="w-full h-24 bg-white float-left font-kumbhSans">
+            <header className="z-0 w-full h-24 bg-white float-left font-kumbhSans">
 				<div className="flex flex-row border-b-[1px] border-gray-200 h-24 container mx-auto space-x-12">
 					<div className="relative h-full w-32">
 						<Image
