@@ -21,7 +21,7 @@ export default function Home() {
 							<img src="/images/image-product-desktop.jpg" className="hidden md:block rounded-tl-xl rounded-bl-xl w-[100%]" />
 							<img src="/images/image-product-mobile.jpg" className="md:hidden rounded-t-xl w-[100%]" />
 						</div>
-						<div className="w-[100%] md:1/2 bg-white p-8 rounded-b-xl md:rounded-tr-xl md:rounded-br-xl flex flex-row items-center">
+						<div className="w-[100%] md:1/2 bg-white p-8 rounded-b-xl md:rounded-tr-xl md:rounded-br-xl md:rounded-bl-none flex flex-row items-center">
 							<div className="flex flex-col space-y-5">
 								<p className="uppercase tracking-[4px] text-[0.825rem] font-montserrat text-darkGrayishBlue">Perfume</p>
 								<h1 className="text-[2rem] leading-8 font-fraunces text-veryDarkBlue font-bold">
